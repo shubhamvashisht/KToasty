@@ -11,10 +11,10 @@
 
     <ImageView
         android:id="@+id/toast_icon"
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
         android:contentDescription="@string/toast_message" />
 
     <TextView xmlns:android="http://schemas.android.com/apk/res/android"
